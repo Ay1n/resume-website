@@ -3,7 +3,7 @@ html, body {
 }
 
 /*html { 
-  background: url(golden_grid.jpg) no-repeat center center fixed; 
+  background: url(img/18.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,18 +21,9 @@ body {
     user-select: none;
 }
 
-#wrap {
-	display: none;
-	width: 1000px;
-	margin: auto;
-	margin-top: 100px;
-	/*border-style: solid;
-	border-color: #000;*/
-}
-
 /*Heading*/
 
-#head {
+.head {
 	position: fixed; 
 	top: -50%; 
 	left: -50%; 
@@ -40,7 +31,7 @@ body {
 	height: 200%;
 }
 
-#head img{
+.head img{
   position: absolute; 
   top: 0; 
   left: 0; 
@@ -52,25 +43,12 @@ body {
 }
 
 h1 {
-	position: absolute;
-	margin: 50px 0px 0px 180px;
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: -7px;
 	font-size: 83px;
 	font-weight: 600;
 	color: #4d4f54;
 }
-
-h2 {
-	position: absolute;
-	margin: 120px 0px 0px 336px;
-	font-family: 'Open Sans', sans-serif;
-	letter-spacing: -7px;
-	font-size: 83px;
-	font-weight: 600;
-	color: #4d4f54;
-}
-
 
 #pic {
 	position: absolute;
@@ -319,8 +297,6 @@ h2 {
 /*Contact*/
 
 h3 {
-	position: absolute;
-	margin: 1900px 0px 0px 380px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 28px;
 	font-weight: 600;
