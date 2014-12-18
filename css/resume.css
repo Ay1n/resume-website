@@ -1,5 +1,5 @@
 html, body {
-	height: 100%;
+	/*height: 100%;*/
 }
 
 /*html { 
@@ -20,6 +20,38 @@ body {
 	-o-user-select: none;
     user-select: none;
 }
+
+/**************NEW AND FIXED CSS*****************/
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #5b99fe;
+}
+
+a:hover {
+	color: #4d4f54;
+}
+
+.prgram {
+	width: 200px; 
+	height: 200px;
+	background: #5b99fe;
+	-webkit-transform: skew(-20deg); 
+	-moz-transform: skew(-20deg); 
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+	text-align: center;
+	line-height: 200px;
+}
+
+/***********************/
+
+
 
 /*Heading*/
 
@@ -53,7 +85,6 @@ h1 {
 /*Experience*/
 
 .txt {
-	position: relative;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 28px;
 	font-weight: 600;
@@ -66,16 +97,7 @@ h1 {
 	transform: skew(20deg);
 }
 
-.prgram1 {
-	width: 200px; 
-	height: 200px;
-	background: #5b99fe;
-	-webkit-transform: skew(-20deg); 
-	-moz-transform: skew(-20deg); 
-	-o-transform: skew(-20deg);
-	transform: skew(-20deg);
-	text-align: center;
-}
+
 
 #exp2 {
 	font-family: 'Open Sans', sans-serif;
@@ -150,17 +172,6 @@ h1 {
 
 /*Education*/
 
-.prgram2 {
-	width: 200px; 
-	height: 200px;
-	background: #5b99fe;
-	-webkit-transform: skew(-20deg); 
-	-moz-transform: skew(-20deg); 
-	-o-transform: skew(-20deg);
-	transform: skew(-20deg);
-	text-align: center;
-}
-
 #edu2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 21px;
@@ -177,17 +188,6 @@ h1 {
 
 /*IT skills*/
 
-.prgram3 {
-	width: 200px; 
-	height: 200px;
-	background: #5b99fe;
-	-webkit-transform: skew(-20deg); 
-	-moz-transform: skew(-20deg); 
-	-o-transform: skew(-20deg);
-	transform: skew(-20deg);
-	text-align: center;
-}
-
 #itskill {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 21px;
@@ -196,17 +196,6 @@ h1 {
 }
 
 /*Languages*/
-
-.prgram4 {
-	width: 200px; 
-	height: 200px;
-	background: #5b99fe;
-	-webkit-transform: skew(-20deg); 
-	-moz-transform: skew(-20deg); 
-	-o-transform: skew(-20deg);
-	transform: skew(-20deg);
-	text-align: center;
-}
 
 #lang2 {
 	font-family: 'Open Sans', sans-serif;
