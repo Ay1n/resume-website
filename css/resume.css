@@ -1,16 +1,20 @@
-html, body {
-	/*height: 100%;*/
-}
-
-/*html { 
+html { 
   background: url(img/18.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 body {
+	/*background: url(img/18.png) 
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;*/
     margin: 0;
     padding: 0;
 	-webkit-user-select: none;
@@ -20,8 +24,6 @@ body {
 	-o-user-select: none;
     user-select: none;
 }
-
-/**************NEW AND FIXED CSS*****************/
 
 .container-fluid {
 
@@ -85,7 +87,7 @@ a:hover {
 	line-height: 200px;
 }
 
-.txt {
+.prgram-txt {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 26px;
 	font-weight: 600;
@@ -115,35 +117,6 @@ a:hover {
 	height: 100px;
 }
 
-.experience__social-links__item {
+[class*="links"] {
 	display: inline;
-}
-
-.contact-list__item {
-	display: inline;
-}
-
-/***********************/
-
-
-
-/*Heading*/
-
-.head {
-	position: fixed; 
-	top: -50%; 
-	left: -50%; 
-	width: 200%; 
-	height: 200%;
-}
-
-.head img{
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
 }
