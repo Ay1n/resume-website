@@ -23,9 +23,45 @@ body {
 
 /**************NEW AND FIXED CSS*****************/
 
+.container-fluid {
+
+}
+
+.heading {
+	text-align: center;
+	line-height: 0.8;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: -7px;
+	font-size: 83px;
+	font-weight: 600;
+	color: #4d4f54;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	color: #4d4f54;
+}
+
 ul {
 	list-style-type: none;
 	padding-left: 0;
+}
+
+li img {
+	height: 64px;
+	width: 64px;
+}
+
+ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	font-weight: 300;
+	color: #4d4f54;
 }
 
 a {
@@ -47,6 +83,44 @@ a:hover {
 	transform: skew(-20deg);
 	text-align: center;
 	line-height: 200px;
+}
+
+.txt {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	font-weight: 600;
+	letter-spacing: -1px;
+	color: #4d4f54;
+	-webkit-transform: skew(20deg); 
+	-moz-transform: skew(20deg); 
+	-o-transform: skew(20deg);
+	transform: skew(20deg);
+}
+
+#icon {
+	opacity: 1.0;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+}
+
+#icon:hover {
+	opacity:0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+.experience__social-links__item {
+	display: inline;
+}
+
+.contact-list__item {
+	display: inline;
 }
 
 /***********************/
@@ -72,182 +146,4 @@ a:hover {
   margin: auto; 
   min-width: 50%;
   min-height: 50%;
-}
-
-h1 {
-	font-family: 'Open Sans', sans-serif;
-	letter-spacing: -7px;
-	font-size: 83px;
-	font-weight: 600;
-	color: #4d4f54;
-}
-
-/*Experience*/
-
-.txt {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 28px;
-	font-weight: 600;
-	letter-spacing: -1px;
-	color: #4d4f54;
-	margin-top: 80px;
-	-webkit-transform: skew(20deg); 
-	-moz-transform: skew(20deg); 
-	-o-transform: skew(20deg);
-	transform: skew(20deg);
-}
-
-
-
-#exp2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 21px;
-	font-weight: 300;
-	color: #4d4f54;
-}
-
-#exp2 a {
-	text-decoration: none;
-	color: #4d4f54;
-}
-
-#exp2 a:hover {
-	color: #5b99fe;
-}
-
-#iface {
-	opacity: 1.0;
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#iface:hover {
-	opacity:0.5;
-	filter:alpha(opacity=50); /* For IE8 and earlier */
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#itwit {
-	opacity: 1.0;
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#itwit:hover {
-	opacity:0.5;
-	filter:alpha(opacity=50); /* For IE8 and earlier */
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#igplus {
-	opacity: 1.0;
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#igplus:hover {
-	opacity:0.5;
-	filter:alpha(opacity=50); /* For IE8 and earlier */
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#exp3 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 21px;
-	font-weight: 300;
-	color: #4d4f54;
-}
-
-#exp3 a {
-	text-decoration: none;
-	color: #4d4f54;
-}
-
-#exp3 a:hover {
-	color: #5b99fe;
-}
-
-/*Education*/
-
-#edu2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 21px;
-	font-weight: 300;
-	color: #4d4f54;
-}
-
-#edu3 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 21px;
-	font-weight: 300;
-	color: #4d4f54;
-}
-
-/*IT skills*/
-
-#itskill {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 21px;
-	font-weight: 300;
-	color: #4d4f54;
-}
-
-/*Languages*/
-
-#lang2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 21px;
-	font-weight: 300;
-	color: #4d4f54;
-}
-
-/*Contact*/
-
-h3 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 28px;
-	font-weight: 600;
-	color: #4d4f54;
-}
-
-#linkedin {
-	opacity: 1.0;
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#linkedin:hover {
-	opacity:0.5;
-	filter:alpha(opacity=50); /* For IE8 and earlier */
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#twitter {
-	opacity: 1.0;
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#twitter:hover {
-	opacity:0.5;
-	filter:alpha(opacity=50); /* For IE8 and earlier */
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#deviantart {
-	opacity: 1.0;
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-}
-
-#deviantart:hover {
-	opacity:0.5;
-	filter:alpha(opacity=50); /* For IE8 and earlier */
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
 }
