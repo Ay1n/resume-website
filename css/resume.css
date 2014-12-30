@@ -1,20 +1,11 @@
-html { 
-  background: url(img/18.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 body {
-	/*background: url(img/18.png) 
+	background-attachment: fixed; 
+	background-image: url("../img/aaa.png");
+	-webkit-background-size: cover;
+  	   -moz-background-size: cover;
+  	        background-size: cover;
+	background-position: 0 0; 
 	background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-origin: content-box;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;*/
     margin: 0;
     padding: 0;
 	-webkit-user-select: none;
@@ -26,7 +17,7 @@ body {
 }
 
 .container-fluid {
-
+	max-width: 900px;
 }
 
 .heading {
@@ -73,9 +64,10 @@ a {
 
 a:hover {
 	color: #4d4f54;
+	text-decoration: none;
 }
 
-.prgram {
+.rhombus {
 	width: 200px; 
 	height: 200px;
 	background: #5b99fe;
@@ -85,9 +77,10 @@ a:hover {
 	transform: skew(-20deg);
 	text-align: center;
 	line-height: 200px;
+	margin: 0 auto;
 }
 
-.prgram-txt {
+.rhombus__txt {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 26px;
 	font-weight: 600;
@@ -99,24 +92,23 @@ a:hover {
 	transform: skew(20deg);
 }
 
-#icon {
+[class*="links__item"] {
 	opacity: 1.0;
 	-webkit-transition: opacity 1s;
 	-moz-transition: opacity 1s;
 }
 
-#icon:hover {
+[class*="links__item"]:hover {
 	opacity:0.5;
-	filter:alpha(opacity=50); /* For IE8 and earlier */
+	filter:alpha(opacity=50);
 	-webkit-transition: opacity 1s;
 	-moz-transition: opacity 1s;
 }
 
-.logo {
-	width: 100px;
-	height: 100px;
-}
-
 [class*="links"] {
 	display: inline;
+}
+
+[class*="item"] {
+	margin-top: 1em;
 }
