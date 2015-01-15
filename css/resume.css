@@ -1,5 +1,6 @@
 body {
-	background-attachment: fixed; 
+	background-attachment: fixed;
+	height: 100%;
 	background-image: url("../img/aaa.png");
 	-webkit-background-size: cover;
   	   -moz-background-size: cover;
@@ -75,6 +76,7 @@ a:hover {
 	text-align: center;
 	line-height: 150px;
 	margin: 0 auto;
+	max-width: 90%;
 }
 
 .rhombus__txt {
@@ -90,8 +92,15 @@ a:hover {
 }
 
 .heading {
+	height: 100vh;
 	text-align: center;
 	line-height: 0.8;
+}
+
+.heading:before{
+	content:"";
+	height:100%;
+	vertical-align:middle;
 }
 
 .contact-list {
