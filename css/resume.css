@@ -10,11 +10,11 @@ body {
     margin: 0;
     padding: 0;
 	-webkit-user-select: none;
-    -moz-user-select: -moz-none;
-	-khtml-user-select: none;
-    -ms-user-select: none;
-	-o-user-select: none;
-    user-select: none;
+       -moz-user-select: -moz-none;
+	 -khtml-user-select: none;
+        -ms-user-select: none;
+	     -o-user-select: none;
+            user-select: none;
 }
 
 .container-fluid {
@@ -97,7 +97,7 @@ a:hover {
 	line-height: 0.8;
 }
 
-.heading:before{
+.heading::before{
 	content:"";
 	height:100%;
 	vertical-align:middle;
