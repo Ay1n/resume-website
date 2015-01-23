@@ -43,17 +43,12 @@ h1 {
 	letter-spacing: -6px;
 }
 
-h3 {
+h2 {
 	color: #4d4f54;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 28px;
-	font-weight: 600;
+	font-weight: 300;
 	text-align: center;
-}
-
-li img {
-	height: 64px;
-	width: 64px;
 }
 
 ul {
@@ -73,7 +68,12 @@ ul li {
 	margin-bottom: 2em;
 	margin-top: 4em;
 	text-align: center;
-	word-spacing: 100px;
+	word-spacing: 5em;
+}
+
+.contact-list-links__item img {
+	height: 91px;
+	width: 91px;
 }
 
 .exp-edu {
@@ -82,6 +82,11 @@ ul li {
 
 .experience__social-links {
 	word-spacing: 1em;
+}
+
+.experience__social-links__item img {
+	height: 64px;
+	width: 64px;
 }
 
 .it-lan {
@@ -94,10 +99,15 @@ ul li {
 	text-align: center;
 }
 
-.heading::before{
+.heading::before {
 	content:"";
-	height:100%;
+	height: 100%;
 	vertical-align: middle;
+}
+
+.logo {
+	height: 129px;
+	width: 120px;
 }
 
 .progress {
