@@ -38,17 +38,18 @@ footer {
 h1 {
 	color: #4d4f54;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 83px;
-	font-weight: 600;
+	font-size: 6.7773em;
+	font-weight: 300;
 	letter-spacing: -6px;
 }
 
 h2 {
 	color: #4d4f54;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 28px;
+	font-size: 2.5888em;
 	font-weight: 300;
 	text-align: center;
+	width: 100%;
 }
 
 ul {
@@ -74,9 +75,16 @@ ul li {
 .contact-list-links__item img {
 	height: 91px;
 	width: 91px;
+	margin-bottom: 20px;
+	fill: #4d4f54;
+	max-width: 70%;
 }
 
-.exp-edu {
+.edu {
+	margin-bottom: 150px;
+}
+
+.exp {
 	margin-bottom: 150px;
 }
 
@@ -89,8 +97,12 @@ ul li {
 	width: 64px;
 }
 
+.it {
+	margin-bottom: 150px;
+}
+
 .it-lan {
-	margin-bottom: 200px;
+	margin-bottom: 50px;
 }
 
 .heading {
@@ -99,16 +111,28 @@ ul li {
 	text-align: center;
 }
 
+.heading h1 {
+	margin-bottom: 50px;
+}
+
+.heading img {
+	margin-bottom: 100px;
+}
+
 .heading::before {
 	content:"";
 	height: 100%;
 	vertical-align: middle;
 }
 
-.logo {
+.lan {
+	margin-bottom: 150px;
+}
+
+/*.logo {
 	height: 129px;
 	width: 120px;
-}
+}*/
 
 .progress {
 	margin-top: 5px;
@@ -120,7 +144,7 @@ ul li {
 	background: #5b99fe;
 	height: 150px;
 	margin: 0 auto;
-	max-width: 90%;
+	max-width: 75%;
 	line-height: 150px;
 	text-align: center;
   -webkit-transform: skew(-20deg); 
@@ -134,7 +158,7 @@ ul li {
 	color: #4d4f54;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 26px;
-	font-weight: 600;
+	font-weight: 400;
 	letter-spacing: -1px;
 	-webkit-transform: skew(20deg); 
 	   -moz-transform: skew(20deg); 
