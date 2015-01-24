@@ -2,8 +2,8 @@ body {
 	background-attachment: fixed;
 	background-image: url("../img/aaa.png");
 	-webkit-background-size: cover;
-  	   -moz-background-size: cover;
-  	        background-size: cover;
+  	 -moz-background-size: cover;
+  	      background-size: cover;
 	background-position: 0 0; 
 	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
